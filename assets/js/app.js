@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
 'Phone:          ' + (v('phone') || 'Not provided') + '\n\n' +
 'Message:\n' + v('message') + '\n\n' +
 '---\nSent via feetfirstsurgery.co.uk');
-      window.location.href = 'mailto:Natalie@feetfirstsurgery.co.uk?subject=' + subject + '&body=' + body;
+      window.location.href = 'mailto:natalie@feetfirstsurgery.co.uk?subject=' + subject + '&body=' + body;
     });
   }
 
